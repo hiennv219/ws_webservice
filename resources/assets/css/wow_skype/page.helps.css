@@ -1,0 +1,36 @@
+#page-helps .list-group-item.help-item {
+    border: none;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+#page-helps .list-group-item.help-item:hover,
+#page-helps .list-group-item.help-item:focus,
+#page-helps .list-group-item.help-item:active,
+#page-helps .active > .list-group-item.help-item,
+#page-helps .active > .list-group-item.help-item:hover,
+#page-helps .active > .list-group-item.help-item:focus,
+#page-helps .active > .list-group-item.help-item:active {
+    background-color: transparent;
+}
+
+#page-helps .list-group-item.help-item.help-category {
+    border-bottom: 2px solid #555;
+}
+
+#page-helps .list-group-item.help-item.help-article {
+    padding-bottom: 0;
+}
+
+#page-helps .list-group-item.help-item {
+    color: #333;
+}
+
+#page-helps .active > .list-group-item.help-item.help-article,
+#page-helps .list-group-item.help-item.help-article:hover {
+    color: #00aff0;
+}

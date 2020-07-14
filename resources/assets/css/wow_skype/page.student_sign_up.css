@@ -1,0 +1,4 @@
+#page-student-sign-up-step input[type=checkbox],
+#page-student-sign-up-step input[type=radio] {
+    margin-top: 2px;
+}

@@ -1,0 +1,80 @@
+#page-teacher-sign-up .media .media-left span {
+    border-radius: 50%;
+    background-color: #00aff0;
+    padding: 3px 5px;
+    display: block;
+    height: 22px;
+    width: 22px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+}
+
+#page-teacher-sign-up .media .media-heading {
+    font-weight: 700;
+}
+
+#page-teacher-sign-up-step .nav > li {
+    width: 50%;
+}
+
+#page-teacher-sign-up-step .nav > li > a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#page-teacher-sign-up-step .nav > li > a > span {
+    background-color: #00aff0;
+    color: #fff;
+    border-radius: 50%;
+    padding: 3px 8px;
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+#page-teacher-sign-up-step .nav > li.active > a > span {
+    background-color: #eee;
+    color: #00aff0;
+}
+
+#page-teacher-sign-up-step .nav-wizard > li:not(:last-child) > a {
+    margin-right: 0;
+}
+
+#page-teacher-sign-up-step #profile-user-img {
+    width: 100%;
+}
+
+#page-teacher-sign-up-step input[type=checkbox],
+#page-teacher-sign-up-step input[type=radio] {
+    margin-top: 2px;
+}
+
+@media (max-width: 767px) {
+    #page-teacher-sign-up-step #profile-user-img {
+        max-width: 200px;
+        margin-bottom: 10px;
+    }
+
+    #page-teacher-sign-up-step .cropper-image-view {
+        width: 100%;
+    }
+
+    #page-teacher-sign-up-step .nav > li {
+        width: 100%;
+    }
+
+    #page-teacher-sign-up-step .nav-wizard > li:not(:first-child) > a:before,
+    #page-teacher-sign-up-step .nav-wizard > li:not(:last-child) > a:after {
+        display: none;
+    }
+
+    #page-teacher-sign-up-step .nav-wizard > li:first-child > a,
+    #page-teacher-sign-up-step .nav-wizard > li:last-child > a {
+        border-radius: 0;
+    }
+
+    #page-teacher-sign-up-step .nav-wizard > li:not(:first-child) > a {
+        padding-left: 15px;
+    }
+}

@@ -1,0 +1,190 @@
+header .navbar {
+    margin-bottom: 0;
+    border: none;
+}
+
+header .navbar-default {
+    margin-bottom: 0;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+header .navbar-default .navbar-nav > li > a,
+header .navbar-default .navbar-nav > li > ul > li > a {
+    color: #333;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700;
+    border-bottom: 2px solid transparent;
+}
+
+header .navbar-default .navbar-nav > .active > a,
+header .navbar-default .navbar-nav > .active > a:focus,
+header .navbar-default .navbar-nav > .active > a:hover,
+header .navbar-default .navbar-nav > li:hover > a,
+header .navbar-default .navbar-nav > li:focus > a,
+header .navbar-default .navbar-nav > li > a:focus,
+header .navbar-default .navbar-nav > li > a:hover {
+    color: #00aff0;
+    background-color: transparent;
+    border-bottom-color: #00aff0;
+}
+
+header .navbar-toggle {
+    margin-right: 20px;
+}
+
+header .navbar-nav {
+    margin: 25px 0 15px 0;
+}
+
+header .navbar-brand {
+    padding: 0 15px 0 0;
+    height: auto;
+}
+
+header .nav.navbar-nav > li > ul {
+    position: absolute;
+    margin-top: -2px;
+    display: none;
+    list-style: none;
+    padding-left: 0;
+    z-index: 99;
+    background-color: #fff;
+    border: 2px solid #00aff0;
+    min-width: 320px;
+}
+
+header .nav.navbar-nav > li > ul > li {
+    display: block;
+}
+
+header .nav.navbar-nav > li:hover > ul {
+    display: inherit;
+}
+
+header .nav.navbar-nav > li > ul > li > a {
+    padding: 15px;
+    display: block;
+    border-top: 2px solid transparent;
+}
+
+header .navbar-default .navbar-nav > li > ul > li > a:focus,
+header .navbar-default .navbar-nav > li > ul > li > a:hover {
+    color: #00aff0;
+    background-color: transparent;
+    border-bottom-color: #00aff0;
+    border-top: 2px solid #00aff0;
+}
+
+header .navbar-default .navbar-nav > li > ul > li:first-child > a {
+    border-top-color: transparent;
+}
+
+header .navbar-default .navbar-nav > li > ul > li:last-child > a {
+    border-bottom-color: transparent;
+}
+
+header .logo {
+    margin: 20px 0;
+}
+
+header .switch-locale,
+header .login-action,
+header .sign-up-action {
+    margin-bottom: 5px;
+}
+
+header .switch-locale {
+    margin-top: 5px;
+}
+
+header .switch-locale a {
+    width: 30px;
+    padding: 0 0 1px 0;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: uppercase;
+}
+
+header .bars .wrapper {
+    position: relative;
+    top: -8px;
+    padding: 0;
+}
+
+header .bar {
+    height: 8px;
+}
+
+header .bar-50 {
+    width: 50%;
+}
+
+header .wrapper .bar.pull-left {
+    width: 90%;
+    font-size: 0;
+    line-height: 0;
+    border-top: 8px solid #00aff0;
+    border-right: 8px solid #fff;
+}
+
+header .wrapper .bar.pull-right {
+    width: 10%;
+    font-size: 0;
+    line-height: 0;
+    border-bottom: 8px solid #75ab00;
+    border-left: 8px solid #fff;
+}
+
+header .box-email > span {
+    margin-top: -3px;
+}
+
+header .box-email:hover > span > span {
+    display: none !important;
+}
+
+header .box-email:hover > span > i {
+    display: inherit !important;
+    font-weight: 700;
+}
+
+header .box-email:hover,
+header .box-email:focus,
+header .box-email:active,
+header .box-email:active:focus {
+    color: #fff;
+    background-color: #00aff0;
+}
+
+@media (min-width: 768px) {
+    header .navbar-right {
+        margin-right: -30px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    header > .wrapper {
+        padding: 0;
+    }
+
+    header .logo {
+        height: 30px;
+        margin: 10px 0 10px 20px;
+    }
+
+    header .navbar-nav {
+        margin: 0;
+    }
+
+    header .navbar-collapse {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    header .nav.navbar-nav > li > ul {
+        width: 100%;
+    }
+}

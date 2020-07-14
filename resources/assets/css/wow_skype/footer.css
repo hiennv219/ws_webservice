@@ -1,0 +1,12 @@
+footer ul.list-inline.social-links > li {
+    padding-right: 0;
+    padding-left: 0;
+    margin-bottom: 3px;
+    font-size: 20px;
+}
+footer ul.list-inline.social-links > li .box-center > span {
+    margin-top: -4px;
+}
+footer ul.list-inline.bottom-social-links > li {
+    padding-right: 0;
+}

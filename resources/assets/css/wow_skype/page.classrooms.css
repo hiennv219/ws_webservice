@@ -1,0 +1,7 @@
+#class-time-list .class-time-content {
+    margin-bottom: 10px;
+}
+
+#class-time-list .class-time-content p:last-child {
+    margin-bottom: 0;
+}

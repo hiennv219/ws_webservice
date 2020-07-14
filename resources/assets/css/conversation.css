@@ -1,0 +1,205 @@
+body {
+    background: #fff;
+    overflow-x: hidden;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.margin-right-10 {
+    margin-right: 10px;
+}
+
+.margin-top-13 {
+    margin-top: 13px;
+}
+
+.margin-right-13 {
+    margin-right: 13px;
+}
+
+.margin-top-15 {
+    margin-top: 15px;
+}
+
+.margin-right-15 {
+    margin-right: 15px;
+}
+
+.color-red {
+    color: red;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.no-border-radius {
+    border-radius: 0;
+}
+
+.no-border {
+    border: none;
+}
+
+.no-resize {
+    resize: none;
+}
+
+.no-focus-outline,
+.no-focus-outline:focus,
+.no-focus-outline:hover,
+.no-focus-outline:active,
+.no-focus-outline:active:hover,
+.no-focus-outline:active:focus {
+    outline: none;
+    -webkit-appearance: none;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.text-red {
+    color: #dd0000;
+}
+
+.text-grey {
+    color: #383838;
+}
+
+.btn-primary,
+.btn-primary:focus,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:active:hover,
+.btn-primary:active:focus {
+    background: #0084ff;
+}
+
+hr {
+    margin: 0;
+}
+
+#user-boxes {
+    width: 100%;
+}
+
+#user-boxes .scrolling-control {
+    width: 16px;
+    height: 32px;
+    margin-top: -32px;
+    padding: 0;
+    text-align: center;
+}
+
+#user-boxes .users {
+    height: 32px;
+    overflow: hidden;
+}
+
+.square-box {
+    width: 32px;
+    height: 32px;
+    float: left;
+}
+
+.square-box.user {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main > .wrapper {
+    overflow: auto;
+}
+
+main .clearfix:after {
+    height: 10px;
+}
+
+#messages {
+    overflow: hidden;
+}
+
+#messages .square-box {
+    margin-left: 10px;
+}
+
+p.message {
+    padding: 6px 12px;
+    max-width: 60%;
+    margin: 0;
+    border-radius: 1.3em;
+    word-wrap: break-word;
+}
+
+p.message.pull-right {
+    background: #0084ff;
+    color: #fff;
+    margin-right: 10px;
+}
+
+p.message.pull-right a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+p.message.pull-right a:hover {
+    text-decoration: none;
+}
+
+p.message.pull-left {
+    background: #f1f0f0;
+    color: #000;
+    margin-left: 10px;
+}
+
+p.message.pull-left a {
+    color: #000;
+    text-decoration: underline;
+}
+
+p.message.pull-left a:hover {
+    text-decoration: none;
+}
+
+.btn-default {
+    background: #E6E6E6;
+    font-weight: bold;
+}
+
+.btn-default:hover,
+.btn-default:active:hover {
+    color: #0084ff;
+}
+
+#inputEnter {
+    position: absolute;
+    margin: 10px 0 0 10px;
+}
+
+#inputMessage {
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+@media only screen and (max-height: 263px) {
+    body {
+        overflow: auto;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    #message {
+        float: left;
+        width: 100%;
+        padding-right: 100px;
+    }
+
+    #actions {
+        width: 100px;
+        float: right;
+        margin-top: -32px;
+    }
+}

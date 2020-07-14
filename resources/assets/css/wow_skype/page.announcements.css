@@ -1,0 +1,24 @@
+#page-announcements .announcement-item {
+    background-color: #fff;
+    color: #00aff0;
+    border: 1px solid #00aff0;
+    border-radius: 8px;
+    padding: 10px 20px 10px 30px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#page-announcements .announcement-item:last-child {
+    margin-bottom: 0;
+}
+
+#page-announcements .announcement-item.unread {
+    color: #75ab00;
+    border-color: #75ab00;
+}
+
+#page-announcements .announcement-item .btn {
+    position: absolute;
+    top: 10px;
+    left: -20px;
+}

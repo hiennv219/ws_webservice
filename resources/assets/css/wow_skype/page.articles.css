@@ -1,0 +1,27 @@
+#page-article .master-slave-bar .bar,
+#page-articles .master-slave-bar .bar {
+    height: 5px;
+}
+
+#page-article .master-slave-bar .bar.pull-left,
+#page-articles .bar.pull-left {
+    border-top-width: 5px;
+    border-right-width: 5px;
+}
+
+#page-article .master-slave-bar .bar.pull-right,
+#page-articles .master-slave-bar .bar.pull-right {
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+}
+
+#page-article .widgets > div,
+#page-articles .widgets > div {
+    margin-bottom: 20px;
+}
+
+#page-article .comments,
+#page-articles .comments {
+    position: relative;
+    z-index: 0;
+}

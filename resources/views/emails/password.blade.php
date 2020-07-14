@@ -1,0 +1,1 @@
+@include('emails.forgot_password.'.$site_locale)

@@ -1,0 +1,18 @@
+#page-profile-account-information #profile-user-img {
+    width: 100%;
+}
+
+#page-profile-account-information .media .media-body .input-group-btn button {
+    width: 100px;
+}
+
+@media (max-width: 767px) {
+    #page-profile-account-information #profile-user-img {
+        max-width: 200px;
+        margin-bottom: 10px;
+    }
+
+    #page-profile-account-information .cropper-image-view {
+        width: 100%;
+    }
+}
